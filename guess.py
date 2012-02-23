@@ -1,6 +1,6 @@
 import random
 
-secretNum = random.randint(0, 100)
+secretNum = random.randint(0, 101)
 guesses = []
 for x in range (0,10):
 	guess = raw_input()
